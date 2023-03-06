@@ -9,7 +9,7 @@
 		{ text: 'Project', url: '/' },
 		{ text: 'News', url: '/' },
 		{ text: 'Cooperation', url: '/' },
-		{ text: 'About Us', url: '/' }
+		{ text: 'About Us', url: 'about' }
 	];
 </script>
 
@@ -57,6 +57,6 @@
 	</ul>
 </nav>
 
-<div class="container">
+<div>
 	<slot />
 </div>
