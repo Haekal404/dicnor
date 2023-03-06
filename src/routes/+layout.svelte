@@ -1,5 +1,9 @@
 <script>
 	import '../app.css';
+
+	// NOTE: bootstrap import
+	// import 'bootstrap/dist/css/bootstrap.min.css';
+	// import 'bootstrap/dist/js/bootstrap.min.js';
 </script>
 
 <svelte:head>
