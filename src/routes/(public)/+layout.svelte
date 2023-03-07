@@ -1,4 +1,6 @@
 <script lang="ts">
+	import { base } from '$app/paths';
+
 	let showMenu = false;
 
 	const toggle = () => {
@@ -6,10 +8,10 @@
 	};
 
 	const listMenu = [
-		{ text: 'Project', url: '/' },
-		{ text: 'News', url: '/' },
-		{ text: 'Cooperation', url: '/' },
-		{ text: 'About Us', url: 'about' }
+		{ text: 'Project', url: `${base}/project` },
+		{ text: 'News', url: `${base}/news` },
+		{ text: 'Cooperation', url: `${base}/cooperation` },
+		{ text: 'About Us', url: `${base}/about` }
 	];
 </script>
 
@@ -19,7 +21,7 @@
 </svelte:head>
 
 <nav class="flex items-center justify-between py-3 px-2 md:px-10">
-	<a href="/" class="flex items-center gap-1">
+	<a href={base ? base : '/'} class="flex items-center gap-1">
 		<img class="h-8 w-8" src="/logo.svg" alt="Logo" />
 		<span>Dicn&Oslash;r</span>
 	</a>
