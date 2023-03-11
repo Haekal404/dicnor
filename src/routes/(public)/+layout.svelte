@@ -7,11 +7,11 @@
 		showMenu = !showMenu;
 	};
 
-	const listMenu = [
-		{ text: 'Project', url: `${base}/project` },
-		{ text: 'News', url: `${base}/news` },
-		{ text: 'Cooperation', url: `${base}/cooperation` },
-		{ text: 'About Us', url: `${base}/about` }
+	const listM
+		{ text: 'Project', url: '/' },
+		{ text: 'service', url: 'service' },
+		{ text: 'contact', url: 'contact' },
+		{ text: 'About ', url: 'about' }
 	];
 </script>
 
@@ -43,7 +43,7 @@
 				>
 			</button>
 			<ul
-				class="absolute right-0 top-10 rounded-md bg-gray-200 p-5 leading-loose {showMenu
+				class="absolute z-10 right-0 top-10 rounded-md bg-gray-200 p-5 leading-loose {showMenu
 					? 'block'
 					: 'hidden'}"
 			>
@@ -64,4 +64,14 @@
 	</ul>
 </nav>
 
-<slot />
+<div>
+	<slot />
+</div>
+
+
+<section>
+	<div class="text-center bg-slate-900 py-5 text-white">
+		<p>@Copyraight haekal apparel</p>
+	</div>
+</section>
+

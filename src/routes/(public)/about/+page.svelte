@@ -1,144 +1,306 @@
-<script>
-	import iconbox from '$lib/images/iconBox.svg';
-	import Globe from '$lib/images/globe.svg';
-</script>
-
-<section
-	class="container mb-24 bg-[url('https://demo.w3layouts.com/demos_new/template_demo/03-02-2020/infinitude-demo_Free/1444549991/web/images/ab.jpg')] bg-cover bg-no-repeat py-40"
->
-	<h1 class="pb-4 text-3xl font-bold text-white">
-		<span class="text-yellow-400">Who</span> We Are
-	</h1>
-	<p class="mt-4 text-white">
-		Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic reprehenderit ratione iure, omnis
-		quae culpa debitis est maiores rerum mollitia quam iusto! Blanditiis sapiente sed libero tempora
-		porro quis numquam velit maxime, possimus sequi, expedita atque illo cupiditate molestiae.
-		Quisquam consectetur repellendus expedita beatae atque voluptatem ipsam vitae cumque esse.
-	</p>
-	<button class="mt-4 rounded-lg  bg-yellow-400 px-10 py-4">Read More</button>
+<section class="mt-8 text-center font-serif">
+	<p class="pb-5 text-slate-500">meet your new car</p>
+	<p class="pb-5 text-5xl font-bold">Honda Civic Type R</p>
+	<div class="space-x-3">
+		<a href="/"
+			><button class="mt-2 rounded-sm bg-slate-300 px-4 py-2 text-slate-50 hover:bg-slate-500">More Detail</button></a
+		>
+		<a href="/"><button class="rounded-sm bg-blue-700 px-5 py-2 text-white hover:bg-blue-500">Test Drive</button></a>
+	</div>
+	<div>
+		<img
+			class="m-auto"
+			src="https://media.istockphoto.com/id/1297171867/id/foto/depan-sportscar-hitam-lihat-terisolasi-di-atas-putih.jpg?s=612x612&w=0&k=20&c=GmHapOjJuIxOSKJEIUbBFfBDxE7r7Uxow1iOXE4Ggpk="
+			alt=""
+		/>
+	</div>
 </section>
 
-<section class="container mb-24 bg-slate-50 px-5 py-20">
-	<div class="grid grid-cols-2 gap-10">
-		<div>
+<section class="container mb-32 font-serif">
+	<p class="text-2xl font-bold">Trending Near You</p>
+
+	<div class="flex-col justify-between gap-5 md:flex lg:flex-row ">
+		<div class="mt-5">
 			<img
-				class="w-full rounded-xl"
-				src="https://images.unsplash.com/photo-1568992687947-868a62a9f521?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8b2ZmZmljZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=400&q=60"
+				class="rounded-md "
+				src="https://images.unsplash.com/photo-1494905998402-395d579af36f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8Y2FyfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=400&q=60"
 				alt=""
 			/>
+			<p class="font-bold">Used 2023 Bari S4 Premium Plus</p>
+			<h3>11 475 miles</h3>
+			<p>AWD 4-Cylinder Turbo</p>
+			<div>
+				<a href="/"
+					><button class="rounded-sm bg-slate-300 px-1 py-1 text-slate-50">$41,400</button></a
+				>
+				<a href="/"
+					><button class="rounded-sm bg-slate-300 px-1 py-1 text-white">Bestseller</button></a
+				>
+			</div>
+		</div>
+
+		<div class="mt-5">
+			<img
+				class="rounded-md "
+				src="https://images.unsplash.com/photo-1494905998402-395d579af36f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8Y2FyfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=400&q=60"
+				alt=""
+			/>
+			<p class="font-bold">Used 2023 Bari S4 Premium Plus</p>
+			<h3>11 475 miles</h3>
+			<p>AWD 4-Cylinder Turbo</p>
+			<div>
+				<a href="/"
+					><button class="rounded-sm bg-slate-300 px-1 py-1 text-slate-50">$41,400</button></a
+				>
+				<a href="/"
+					><button class="rounded-sm bg-slate-300 px-1 py-1 text-white">Bestseller</button></a
+				>
+			</div>
+		</div>
+
+		<div class="mt-5">
+			<img
+				class="rounded-md "
+				src="https://images.unsplash.com/photo-1494905998402-395d579af36f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8Y2FyfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=400&q=60"
+				alt=""
+			/>
+			<p class="font-bold">Used 2023 Bari S4 Premium Plus</p>
+			<h3>11 475 miles</h3>
+			<p>AWD 4-Cylinder Turbo</p>
+			<div>
+				<a href="/"
+					><button class="rounded-sm bg-slate-300 px-1 py-1 text-slate-50">$41,400</button></a
+				>
+				<a href="/"
+					><button class="rounded-sm bg-slate-300 px-1 py-1 text-white">Bestseller</button></a
+				>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section class="mb-40 font-sans">
+	<p class="text-center text-3xl font-bold text-black">Best selling car makes</p>
+
+	<div class="mt-14 justify-center gap-5 py-5 md:flex lg:flex">
+		<div>
+			<div class="flex rounded-lg bg-white p-6 px-20 shadow-xl">
+				<svg
+					xmlns="http://www.w3.org/2000/svg"
+					fill="none"
+					viewBox="0 0 24 24"
+					stroke-width="1.5"
+					stroke="currentColor"
+					class="h-6 w-6"
+				>
+					<path
+						stroke-linecap="round"
+						stroke-linejoin="round"
+						d="M10.5 1.5H8.25A2.25 2.25 0 006 3.75v16.5a2.25 2.25 0 002.25 2.25h7.5A2.25 2.25 0 0018 20.25V3.75a2.25 2.25 0 00-2.25-2.25H13.5m-3 0V3h3V1.5m-3 0h3m-3 18.75h3"
+					/>
+				</svg>
+				<div class="flex-col pl-5">
+					<p>Subaru</p>
+					<p>from $40k</p>
+				</div>
+			</div>
+		</div>
+
+		<div>
+			<div class="flex rounded-lg bg-white p-6 px-20 shadow-xl">
+				<svg
+					xmlns="http://www.w3.org/2000/svg"
+					fill="none"
+					viewBox="0 0 24 24"
+					stroke-width="1.5"
+					stroke="currentColor"
+					class="h-6 w-6"
+				>
+					<path
+						stroke-linecap="round"
+						stroke-linejoin="round"
+						d="M10.5 1.5H8.25A2.25 2.25 0 006 3.75v16.5a2.25 2.25 0 002.25 2.25h7.5A2.25 2.25 0 0018 20.25V3.75a2.25 2.25 0 00-2.25-2.25H13.5m-3 0V3h3V1.5m-3 0h3m-3 18.75h3"
+					/>
+				</svg>
+				<div class="flex-col pl-5">
+					<p>Hyundai</p>
+					<p>from $240k</p>
+				</div>
+			</div>
+		</div>
+
+		<div>
+			<div class="flex rounded-lg bg-white p-6 px-20 shadow-xl">
+				<svg
+					xmlns="http://www.w3.org/2000/svg"
+					fill="none"
+					viewBox="0 0 24 24"
+					stroke-width="1.5"
+					stroke="currentColor"
+					class="h-6 w-6"
+				>
+					<path
+						stroke-linecap="round"
+						stroke-linejoin="round"
+						d="M10.5 1.5H8.25A2.25 2.25 0 006 3.75v16.5a2.25 2.25 0 002.25 2.25h7.5A2.25 2.25 0 0018 20.25V3.75a2.25 2.25 0 00-2.25-2.25H13.5m-3 0V3h3V1.5m-3 0h3m-3 18.75h3"
+					/>
+				</svg>
+				<div class="flex-col pl-5 ">
+					<p>Mercedes</p>
+					<p>from $140k</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="justify-center gap-5 md:flex lg:flex">
+		<div>
+			<div class="flex rounded-lg bg-white p-6 px-20 shadow-xl">
+				<svg
+					xmlns="http://www.w3.org/2000/svg"
+					fill="none"
+					viewBox="0 0 24 24"
+					stroke-width="1.5"
+					stroke="currentColor"
+					class="h-6 w-6"
+				>
+					<path
+						stroke-linecap="round"
+						stroke-linejoin="round"
+						d="M10.5 1.5H8.25A2.25 2.25 0 006 3.75v16.5a2.25 2.25 0 002.25 2.25h7.5A2.25 2.25 0 0018 20.25V3.75a2.25 2.25 0 00-2.25-2.25H13.5m-3 0V3h3V1.5m-3 0h3m-3 18.75h3"
+					/>
+				</svg>
+				<div class="flex-col pl-5">
+					<p>Subaru</p>
+					<p>from $40k</p>
+				</div>
+			</div>
+		</div>
+
+		<div>
+			<div class="flex rounded-lg bg-white p-6 px-20 shadow-xl">
+				<svg
+					xmlns="http://www.w3.org/2000/svg"
+					fill="none"
+					viewBox="0 0 24 24"
+					stroke-width="1.5"
+					stroke="currentColor"
+					class="h-6 w-6"
+				>
+					<path
+						stroke-linecap="round"
+						stroke-linejoin="round"
+						d="M10.5 1.5H8.25A2.25 2.25 0 006 3.75v16.5a2.25 2.25 0 002.25 2.25h7.5A2.25 2.25 0 0018 20.25V3.75a2.25 2.25 0 00-2.25-2.25H13.5m-3 0V3h3V1.5m-3 0h3m-3 18.75h3"
+					/>
+				</svg>
+				<div class="flex-col pl-5">
+					<p>Hyundai</p>
+					<p>from $240k</p>
+				</div>
+			</div>
+		</div>
+
+		<div>
+			<div class="flex rounded-lg bg-white p-6 px-20 shadow-xl">
+				<svg
+					xmlns="http://www.w3.org/2000/svg"
+					fill="none"
+					viewBox="0 0 24 24"
+					stroke-width="1.5"
+					stroke="currentColor"
+					class="h-6 w-6"
+				>
+					<path
+						stroke-linecap="round"
+						stroke-linejoin="round"
+						d="M10.5 1.5H8.25A2.25 2.25 0 006 3.75v16.5a2.25 2.25 0 002.25 2.25h7.5A2.25 2.25 0 0018 20.25V3.75a2.25 2.25 0 00-2.25-2.25H13.5m-3 0V3h3V1.5m-3 0h3m-3 18.75h3"
+					/>
+				</svg>
+				<div class="flex-col pl-5 ">
+					<p>Mercedes</p>
+					<p>from $140k</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section class="mb-40 flex-col justify-between  lg:flex-row ">
+	<p class="text-center text-3xl">Recent Reviews</p>
+
+	<div class="container flex-col justify-between gap-5 pt-10 font-serif md:flex lg:flex-row">
+		<div>
+			<img
+				class="rounded-md "
+				src="https://media.istockphoto.com/id/1388822365/id/foto/mobil-modern-generik-yang-diberikan-sebagai-bidikan-produk.jpg?s=612x612&w=0&k=20&c=rYnBAt4jRfiRlXYMQESvKtRIRKUfKmeipR_N2y8zN1U="
+				alt=""
+			/>
+			<p class="font-bold">2023 lamborghini</p>
+			<div>
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing</p>
+				<div class="mt-3 flex items-center">
+					<img
+						class="w-10 rounded-full"
+						src="https://images.unsplash.com/photo-1509967419530-da38b4704bc6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NjB8fHdvbWFufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=400&q=60"
+						alt=""
+					/>
+					<p class="pl-2">Lorem ipsum dolor sit amet.</p>
+				</div>
+			</div>
+		</div>
+
+		<div>
+			<img
+				class="rounded-md "
+				src="https://media.istockphoto.com/id/1388822365/id/foto/mobil-modern-generik-yang-diberikan-sebagai-bidikan-produk.jpg?s=612x612&w=0&k=20&c=rYnBAt4jRfiRlXYMQESvKtRIRKUfKmeipR_N2y8zN1U="
+				alt=""
+			/>
+			<p class="font-bold">2020 Hyundai Electro</p>
+			<div>
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+				<div class="mt-3 flex items-center">
+					<img
+						class="w-10 rounded-full"
+						src="https://images.unsplash.com/photo-1509967419530-da38b4704bc6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NjB8fHdvbWFufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=400&q=60"
+						alt=""
+					/>
+					<p class="pl-2">Lorem ipsum dolor sit amet.</p>
+				</div>
+			</div>
 		</div>
 		<div>
-			<h2 class="text-2xl">We help brands with big ideas</h2>
-			<p>
-				Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda eum vitae perferendis non
-				ex? Corrupti repellat esse neque consequatur mollitia iste, dolores sed laboriosam optio
-				magni tempore harum earum velit.
-			</p>
-			<button class="mt-4 rounded-lg bg-yellow-400 px-10 py-4">Servis Info</button>
-		</div>
-	</div>
-	<hr class="mt-20" />
-
-	<div class="mt-10 flex justify-around">
-		<div class=" flex w-4/12 gap-1 p-6">
-			<img class="h-8 w-8  rounded-lg bg-yellow-300" src={Globe} alt="" />
-			<div class="flex flex-col gap-1 pl-3">
-				<h1>Global Network</h1>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro, esse.</p>
-			</div>
-		</div>
-
-		<div class=" flex w-4/12 gap-1 p-6">
-			<img class="h-8 w-8 rounded-lg bg-yellow-300" src={Globe} alt="" />
-			<div class="flex flex-col gap-1 pl-3">
-				<h1>Digital Agency</h1>
-				<p>
-					Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis error numquam
-					accusantium expedita?
-				</p>
-			</div>
-		</div>
-
-		<div class=" flex w-4/12 gap-1 p-6">
-			<img class="h-8 w-8 rounded-lg bg-yellow-300" src={iconbox} alt="" />
-			<div class="flex flex-col gap-1 pl-3">
-				<h1>Education</h1>
-				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam, est?</p>
+			<img
+				class="rounded-md "
+				src="https://media.istockphoto.com/id/1388822365/id/foto/mobil-modern-generik-yang-diberikan-sebagai-bidikan-produk.jpg?s=612x612&w=0&k=20&c=rYnBAt4jRfiRlXYMQESvKtRIRKUfKmeipR_N2y8zN1U="
+				alt=""
+			/>
+			<p class="font-bold">2020 mercedes-Benz GLA250</p>
+			<div>
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+				<div class="mt-3 flex items-center">
+					<img
+						class="w-10 rounded-full"
+						src="https://images.unsplash.com/photo-1509967419530-da38b4704bc6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NjB8fHdvbWFufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=400&q=60"
+						alt=""
+					/>
+					<p class="pl-2">Lorem ipsum dolor sit amet.</p>
+				</div>
 			</div>
 		</div>
 	</div>
 </section>
 
-<section class=" container mb-10  p-12">
-	<h1 class="mb-10 text-center   text-4xl">Our Team profesional</h1>
-	<div class="w-100 flex justify-evenly gap-5">
-		<div class="text-center">
-			<div>
-				<img
-					class="h-60 rounded-2xl"
-					src="https://demo.w3layouts.com/demos_new/template_demo/03-02-2020/infinitude-demo_Free/1444549991/web/images/team5.jpg"
-					alt=""
-				/>
-			</div>
-			<h5>Designation</h5>
-			<h1>haekal</h1>
-			<p>Lorem ipsum dolor sit amet.</p>
-		</div>
-
-		<div class="text-center">
-			<div>
-				<img
-					class="h-60 rounded-2xl"
-					src="https://demo.w3layouts.com/demos_new/template_demo/03-02-2020/infinitude-demo_Free/1444549991/web/images/team6.jpg"
-					alt=""
-				/>
-			</div>
-			<h5>Designation</h5>
-			<h1>haekal</h1>
-			<p>Lorem ipsum dolor sit amet.</p>
-		</div>
-
-		<div class="text-center">
-			<div>
-				<img
-					class="h-60 rounded-2xl"
-					src="https://demo.w3layouts.com/demos_new/template_demo/14-05-2022/intelligence-liberty-demo_Free/510988441/web/assets/images/team4.jpg"
-					alt=""
-				/>
-			</div>
-			<h5>Designation</h5>
-			<h1>haekal</h1>
-			<p>Lorem ipsum dolor sit amet.</p>
-		</div>
-
-		<div class="text-center">
-			<div>
-				<img
-					class="h-60 rounded-2xl"
-					src="https://demo.w3layouts.com/demos_new/template_demo/14-05-2022/intelligence-liberty-demo_Free/510988441/web/assets/images/team3.jpg"
-					alt=""
-				/>
-			</div>
-			<h5>Designation</h5>
-			<h1>haekal</h1>
-			<p>Lorem ipsum dolor sit amet.</p>
-		</div>
-	</div>
+<section class="container mb-40">
+	<p class="text-center text-3xl">Find vehicles near you</p>
+	<iframe
+		class="mt-10"
+		src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3945.164269010643!2d116.12074221377988!3d-8.58019957258489!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dcdc0a8b5eb06c7%3A0xc1711af9da0deb40!2sGarden%20View%20Residence!5e0!3m2!1sid!2sid!4v1677613153842!5m2!1sid!2sid"
+		width="100%"
+		height="350"
+		loading="lazy"
+		referrerpolicy="no-referrer-when-downgrade"
+		title="maps"
+	/>
 </section>
 
-<section class=" mb-10 mt-28 p-4">
-	<div class="flex ">
-		<div>
-			<h1 class="mb-2">Newsletter</h1>
-			<h5>Start working together?</h5>
-		</div>
 
-		<div class="ml-60">
-			<input class="w-96 border-black bg-zinc-300 p-3" type="text" placeholder="your email" />
-			<button class="mt-4 rounded-sm  bg-yellow-400 px-36 py-3 ">Suscribe</button>
-			<p />
-		</div>
-
-		<div />
-	</div>
-</section>

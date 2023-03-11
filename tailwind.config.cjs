@@ -11,9 +11,14 @@ module.exports = {
 				lg: '4rem',
 				xl: '5rem',
 				'2xl': '6rem'
-			}
+			},
 		},
 		extend: {
+			colors:{
+				primary:'#6d28d9'
+				
+	
+			},
 			fontFamily: {
 				righteous: ['Righteous']
 			}
