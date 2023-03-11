@@ -1,7 +1,7 @@
 <script lang="ts">
 	let showMenu = false;
 
-	const toggleNavbar = () => {
+	const toggle = () => {
 		showMenu = !showMenu;
 	};
 
@@ -13,14 +13,14 @@
 	];
 </script>
 
-<nav class="flex items-center justify-between py-3 px-5">
-	<div class="flex items-center justify-center gap-2">
+<nav class="flex items-center justify-between py-3 px-2 md:px-10">
+	<a href="/" class="flex items-center gap-1">
 		<img class="w-8" src="/logo.svg" alt="Logo" />
-		<a href="/">Dicn&Oslash;r</a>
-	</div>
+		<span>Dicn&Oslash;r</span>
+	</a>
 	<ul>
 		<li class="relative">
-			<button on:click={toggleNavbar}>
+			<button on:click={toggle} class="lg:hidden">
 				<svg
 					xmlns="http://www.w3.org/2000/svg"
 					class="h-6 w-6"
@@ -40,6 +40,13 @@
 					? 'block'
 					: 'hidden'}"
 			>
+				{#each listMenu as menu}
+					<li>
+						<a href={menu.url} on:click={toggle}>{menu.text}</a>
+					</li>
+				{/each}
+			</ul>
+			<ul class="hidden items-center gap-12 lg:flex">
 				{#each listMenu as menu}
 					<li>
 						<a href={menu.url}>{menu.text}</a>
