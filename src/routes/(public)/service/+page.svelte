@@ -1,4 +1,3 @@
-
 <section class="hero container mb-10 mt-10">
 	<div class="hero-background" />
 	<div class="hero-text">
@@ -6,7 +5,6 @@
 		<div class="flex justify-between rounded-lg bg-white  p-2 shadow-xl">
 			<h1 class="text-black">Lorem ipsum dolor sit amet.</h1>
 			<input class="w-16 rounded-sm bg-purple-700 text-center" type="text" placeholder="searh" />
-			
 		</div>
 	</div>
 </section>

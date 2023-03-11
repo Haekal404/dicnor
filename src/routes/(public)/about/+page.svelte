@@ -3,9 +3,15 @@
 	<p class="pb-5 text-5xl font-bold">Honda Civic Type R</p>
 	<div class="space-x-3">
 		<a href="/"
-			><button class="mt-2 rounded-sm bg-slate-300 px-4 py-2 text-slate-50 hover:bg-slate-500">More Detail</button></a
+			><button class="mt-2 rounded-sm bg-slate-300 px-4 py-2 text-slate-50 hover:bg-slate-500"
+				>More Detail</button
+			></a
 		>
-		<a href="/"><button class="rounded-sm bg-blue-700 px-5 py-2 text-white hover:bg-blue-500">Test Drive</button></a>
+		<a href="/"
+			><button class="rounded-sm bg-blue-700 px-5 py-2 text-white hover:bg-blue-500"
+				>Test Drive</button
+			></a
+		>
 	</div>
 	<div>
 		<img
@@ -18,7 +24,6 @@
 
 <section class="container mb-32 font-serif">
 	<p class="text-2xl font-bold">Trending Near You</p>
-
 	<div class="flex-col justify-between gap-5 md:flex lg:flex-row ">
 		<div class="mt-5">
 			<img
@@ -38,7 +43,6 @@
 				>
 			</div>
 		</div>
-
 		<div class="mt-5">
 			<img
 				class="rounded-md "
@@ -57,7 +61,6 @@
 				>
 			</div>
 		</div>
-
 		<div class="mt-5">
 			<img
 				class="rounded-md "
@@ -81,7 +84,6 @@
 
 <section class="mb-40 font-sans">
 	<p class="text-center text-3xl font-bold text-black">Best selling car makes</p>
-
 	<div class="mt-14 justify-center gap-5 py-5 md:flex lg:flex">
 		<div>
 			<div class="flex rounded-lg bg-white p-6 px-20 shadow-xl">
@@ -105,7 +107,6 @@
 				</div>
 			</div>
 		</div>
-
 		<div>
 			<div class="flex rounded-lg bg-white p-6 px-20 shadow-xl">
 				<svg
@@ -128,7 +129,6 @@
 				</div>
 			</div>
 		</div>
-
 		<div>
 			<div class="flex rounded-lg bg-white p-6 px-20 shadow-xl">
 				<svg
@@ -152,7 +152,6 @@
 			</div>
 		</div>
 	</div>
-
 	<div class="justify-center gap-5 md:flex lg:flex">
 		<div>
 			<div class="flex rounded-lg bg-white p-6 px-20 shadow-xl">
@@ -176,7 +175,6 @@
 				</div>
 			</div>
 		</div>
-
 		<div>
 			<div class="flex rounded-lg bg-white p-6 px-20 shadow-xl">
 				<svg
@@ -199,7 +197,6 @@
 				</div>
 			</div>
 		</div>
-
 		<div>
 			<div class="flex rounded-lg bg-white p-6 px-20 shadow-xl">
 				<svg
@@ -227,7 +224,6 @@
 
 <section class="mb-40 flex-col justify-between  lg:flex-row ">
 	<p class="text-center text-3xl">Recent Reviews</p>
-
 	<div class="container flex-col justify-between gap-5 pt-10 font-serif md:flex lg:flex-row">
 		<div>
 			<img
@@ -248,7 +244,6 @@
 				</div>
 			</div>
 		</div>
-
 		<div>
 			<img
 				class="rounded-md "
@@ -302,5 +297,3 @@
 		title="maps"
 	/>
 </section>
-
-

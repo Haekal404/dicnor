@@ -1,9 +1,7 @@
 <script>
-	import global from '$lib/images/handphone.svg';
 	import Cars from '$lib/components/card.svelte';
-	import Blacks from '$lib/components/black.svelte';
-
-
+	import global from '$lib/images/handphone.svg';
+	// import Blacks from '$lib/components/black.svelte';
 </script>
 
 <section class="hero container">
@@ -17,23 +15,19 @@
 <section class="content">
 	<div class="mt-14 justify-evenly gap-5  md:flex lg:flex">
 		<div class="svg-content">
-			<img src={global} alt="" width="35rem">
-
+			<img src={global} alt="" width="35rem" />
 			<div class="content-text">
 				<p>Hyundai</p>
 			</div>
 		</div>
-
 		<div class="svg-content">
-				<img src={global} alt="" width="35rem">
+			<img src={global} alt="" width="35rem" />
 			<div class="content-text">
 				<p>Lamborghini</p>
 			</div>
 		</div>
-
 		<div class="svg-content">
-			<img src={global} alt="" width="35rem">
-
+			<img src={global} alt="" width="35rem" />
 			<div class="content-text">
 				<p>Mercedes</p>
 			</div>
@@ -43,21 +37,19 @@
 
 <section class="container mb-44">
 	<p class="text-3xl">Active auctions</p>
-
 	<div class="flex-col gap-5 md:flex lg:flex-row">
 		<div>
 			<div class="card">
 				<div>
-					<Cars/>
+					<Cars />
 				</div>
 				<div class=" card-utama">
 					<p>2023 Avanza Forest</p>
 					<p>11.475 Miles . #72374732</p>
 					<div class="mt-2 flex">
-						<img src={global} alt="" width="25rem">
+						<img src={global} alt="" width="25rem" />
 						<p>Avanza Chaplin</p>
 					</div>
-
 					<div class="content-card">
 						<div>
 							<p>$20,0000</p>
@@ -67,39 +59,6 @@
 							<p>$13.0000</p>
 							<p>10 bids</p>
 						</div>
-
-						<div>
-							<a href="/"><button class="button-btn">Place Bid</button></a>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-
-		<div>
-			<div class="card">
-				<div>
-					<Cars/>
-
-				</div>
-				<div class=" card-utama">
-					<p>2023 Avanza Forest</p>
-					<p>11.475 Miles . #72374732</p>
-					<div class="mt-2 flex">
-						<img src={global} alt="" width="25rem">
-						<p>Avanza Chaplin</p>
-					</div>
-
-					<div class="content-card">
-						<div>
-							<p>$20,0000</p>
-							<p>price</p>
-						</div>
-						<div>
-							<p>$13.0000</p>
-							<p>10 bids</p>
-						</div>
-
 						<div>
 							<a href="/"><button class="button-btn">Place Bid</button></a>
 						</div>
@@ -110,17 +69,15 @@
 		<div>
 			<div class="card">
 				<div>
-					<Cars/>
+					<Cars />
 				</div>
 				<div class=" card-utama">
 					<p>2023 Avanza Forest</p>
 					<p>11.475 Miles . #72374732</p>
 					<div class="mt-2 flex">
-						<img src={global} alt="" width="25rem">
-
+						<img src={global} alt="" width="25rem" />
 						<p>Avanza Chaplin</p>
 					</div>
-
 					<div class="content-card">
 						<div>
 							<p>$20,0000</p>
@@ -130,7 +87,34 @@
 							<p>$13.0000</p>
 							<p>10 bids</p>
 						</div>
-
+						<div>
+							<a href="/"><button class="button-btn">Place Bid</button></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div>
+			<div class="card">
+				<div>
+					<Cars />
+				</div>
+				<div class=" card-utama">
+					<p>2023 Avanza Forest</p>
+					<p>11.475 Miles . #72374732</p>
+					<div class="mt-2 flex">
+						<img src={global} alt="" width="25rem" />
+						<p>Avanza Chaplin</p>
+					</div>
+					<div class="content-card">
+						<div>
+							<p>$20,0000</p>
+							<p>price</p>
+						</div>
+						<div>
+							<p>$13.0000</p>
+							<p>10 bids</p>
+						</div>
 						<div>
 							<a href="/"><button class="button-btn">Place Bid</button></a>
 						</div>
@@ -146,39 +130,33 @@
 		<div class="flex-col">
 			<p class="mb-2 text-3xl">Online Auto Auctions</p>
 			<p>vehicles avalable for sale</p>
-
 			<div class="flex text-5xl ">
 				<div class="card-number">
 					<p>0</p>
 				</div>
-
 				<div class="card-number">
 					<p>5</p>
 				</div>
-
 				<div class=" card-number">
 					<p>8</p>
 				</div>
-
 				<div class=" card-number">
 					<p>7</p>
 				</div>
-
 				<div class="card-number">
 					<p>9</p>
 				</div>
 			</div>
-			<p class="max-w-md mt-5">
+			<p class="mt-5 max-w-md">
 				Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum id praesentium animi
 				dignissimos esse voluptatum magni beatae, deserunt dolore tempore reprehenderit repellendus,
 				quae fugit? Alias tenetur praesentium ratione corrupti deserunt?
 			</p>
 			<button class="button-btn mt-5">Explore All Auctions</button>
 		</div>
-
 		<div>
 			<img
-				class="h-96 mt-5"
+				class="mt-5 h-96"
 				src="https://cdn.dribbble.com/users/949297/screenshots/15464174/media/0ec76510fcb5d75676d40afb724cf54c.png?compress=1&resize=400x300&vertical=top"
 				alt=""
 			/>
@@ -189,9 +167,8 @@
 <section class="container mb-20">
 	<div class="flex-col justify-between md:flex lg:flex-row  ">
 		<div>
-			<p class="text-3xl mb-3">Find car by</p>
+			<p class="mb-3 text-3xl">Find car by</p>
 		</div>
-
 		<div class="flex gap-3">
 			<a href="/"> <button class="button-btn">Body Type</button> </a>
 			<a href="/"> <button class="button-btn">Makes</button> </a>
@@ -199,47 +176,40 @@
 			<a href="/"> <button class="button-btn">Trending</button> </a>
 		</div>
 	</div>
-
 	<div class="mt-14">
 		<p>popular makes</p>
-
 		<div class="flex-col justify-between md:flex lg:flex-row ">
 			<div class="leading-5">
 				<div>
 					<div class="card-makes">
-						<img src={global} alt="" width="35rem">
+						<img src={global} alt="" width="35rem" />
 						<div class="content-makes">
 							<p>Subaru</p>
 							<p>from $40k</p>
 						</div>
 					</div>
 				</div>
-
 				<div>
 					<div class="card-makes">
-						<img src={global} alt="" width="35rem">
-
+						<img src={global} alt="" width="35rem" />
 						<div class="content-makes">
 							<p>Hyundai</p>
 							<p>from $240k</p>
 						</div>
 					</div>
 				</div>
-
 				<div>
 					<div class="card-makes">
-						<img src={global} alt="" width="35rem">
-
+						<img src={global} alt="" width="35rem" />
 						<div class="content-makes">
 							<p>Mercedes</p>
 							<p>from $140k</p>
 						</div>
 					</div>
 				</div>
-
 				<div>
 					<div class="card-makes">
-						<img src={global} alt="" width="35rem">
+						<img src={global} alt="" width="35rem" />
 						<div class="content-makes ">
 							<p>Mercedes</p>
 							<p>from $140k</p>
@@ -247,28 +217,17 @@
 					</div>
 				</div>
 			</div>
-
-			<div class=" bg-white rounded-lg p-6 shadow-xl">
+			<div class=" rounded-lg bg-white p-6 shadow-xl">
 				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, officiis.</p>
 			</div>
 		</div>
 	</div>
 </section>
 
-
-
-
-
-
-
-
-
 <style type="postcss">
 	.hero {
 		height: 70vh;
-
 		--tw-bg-opacity: 0.4;
-
 		@apply relative flex flex-col items-center justify-center;
 	}
 
@@ -293,9 +252,8 @@
 		@apply text-center text-white;
 	}
 
-	.content{
+	.content {
 		@apply container mb-40 font-sans;
-		
 	}
 
 	.svg-content {
@@ -326,14 +284,11 @@
 		@apply rounded-lg bg-white p-6 shadow-xl;
 	}
 
-
-    .card-makes{
-        @apply flex rounded-lg bg-white p-6  shadow-xl mb-2;
-    }
-
-	.content-makes{
-		@apply flex-col pl-5 ;
+	.card-makes {
+		@apply mb-2 flex rounded-lg bg-white  p-6 shadow-xl;
 	}
 
-
+	.content-makes {
+		@apply flex-col pl-5;
+	}
 </style>

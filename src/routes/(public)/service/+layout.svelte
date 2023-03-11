@@ -1,5 +1,5 @@
 <svelte:head>
-	<title>Contact - Dicnor</title>
+	<title>Service - Dicnor</title>
 </svelte:head>
 
 <slot />
