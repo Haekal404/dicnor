@@ -7,9 +7,9 @@
 
 	const listMenu = [
 		{ text: 'Project', url: '/' },
-		{ text: 'News', url: '/' },
-		{ text: 'Cooperation', url: '/' },
-		{ text: 'About Us', url: 'about' }
+		{ text: 'service', url: 'service' },
+		{ text: 'contact', url: 'contact' },
+		{ text: 'About ', url: 'about' }
 	];
 </script>
 
@@ -36,7 +36,7 @@
 				>
 			</button>
 			<ul
-				class="absolute right-0 top-10 rounded-md bg-gray-200 p-5 leading-loose {showMenu
+				class="absolute z-10 right-0 top-10 rounded-md bg-gray-200 p-5 leading-loose {showMenu
 					? 'block'
 					: 'hidden'}"
 			>
@@ -53,3 +53,10 @@
 <div>
 	<slot />
 </div>
+
+
+<section>
+	<div class="text-center bg-slate-900 py-5 text-white">
+		<p>@Copyraight haekal apparel</p>
+	</div>
+</section>
