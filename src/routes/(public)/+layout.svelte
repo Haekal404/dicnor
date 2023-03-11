@@ -7,16 +7,15 @@
 		showMenu = !showMenu;
 	};
 
-	const listM
-		{ text: 'Project', url: '/' },
-		{ text: 'service', url: 'service' },
-		{ text: 'contact', url: 'contact' },
-		{ text: 'About ', url: 'about' }
+	const listMenu = [
+		{ text: 'Project', url: `${base}/project` },
+		{ text: 'Service', url: `${base}/service` },
+		{ text: 'Contact', url: `${base}/contact` },
+		{ text: 'About', url: `${base}/about` }
 	];
 </script>
 
 <svelte:head>
-	<meta name="description" content="Website experiment for collaboration" />
 	<title>Dicnor - Homepage</title>
 </svelte:head>
 
@@ -43,7 +42,7 @@
 				>
 			</button>
 			<ul
-				class="absolute z-10 right-0 top-10 rounded-md bg-gray-200 p-5 leading-loose {showMenu
+				class="absolute right-0 top-10 z-10 rounded-md bg-gray-200 p-5 leading-loose {showMenu
 					? 'block'
 					: 'hidden'}"
 			>
@@ -68,10 +67,6 @@
 	<slot />
 </div>
 
-
-<section>
-	<div class="text-center bg-slate-900 py-5 text-white">
-		<p>@Copyraight haekal apparel</p>
-	</div>
-</section>
-
+<footer class="bg-slate-900 py-5 text-center text-white">
+	<p>@Copyraight haekal apparel</p>
+</footer>
