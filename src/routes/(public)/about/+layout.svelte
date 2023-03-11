@@ -1,5 +1,5 @@
 <svelte:head>
-	<title>About</title>
+	<title>About - Dicnor</title>
 </svelte:head>
 
 <slot />

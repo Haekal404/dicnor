@@ -1,11 +1,13 @@
 <script lang="ts">
+	import { base } from '$app/paths';
+
 	let showMenu = false;
 
 	const toggle = () => {
 		showMenu = !showMenu;
 	};
 
-	const listMenu = [
+	const listM
 		{ text: 'Project', url: '/' },
 		{ text: 'service', url: 'service' },
 		{ text: 'contact', url: 'contact' },
@@ -13,14 +15,19 @@
 	];
 </script>
 
+<svelte:head>
+	<meta name="description" content="Website experiment for collaboration" />
+	<title>Dicnor - Homepage</title>
+</svelte:head>
+
 <nav class="flex items-center justify-between py-3 px-2 md:px-10">
-	<a href="/" class="flex items-center gap-1">
-		<img class="w-8" src="/logo.svg" alt="Logo" />
+	<a href={base ? base : '/'} class="flex items-center gap-1">
+		<img class="h-8 w-8" src="/logo.svg" alt="Logo" />
 		<span>Dicn&Oslash;r</span>
 	</a>
 	<ul>
 		<li class="relative">
-			<button on:click={toggle} class="lg:hidden">
+			<button aria-label="Menu" on:click={toggle} class="lg:hidden">
 				<svg
 					xmlns="http://www.w3.org/2000/svg"
 					class="h-6 w-6"
@@ -67,3 +74,4 @@
 		<p>@Copyraight haekal apparel</p>
 	</div>
 </section>
+
